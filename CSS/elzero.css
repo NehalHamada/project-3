@@ -130,6 +130,13 @@ ul {
   bottom: 100px;
   left: 0;
 }
+@media (max-width: 767px) {
+  .dots-up,
+  .dots-down {
+    display: none;
+  }
+  
+}
 /* End Components */
 /* Start Animation  */
 @keyframes up-and-down {
